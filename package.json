@@ -1,0 +1,12 @@
+{
+  "name": "rotating-learner-sessions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/example.ts",
+    "test": "node --experimental-strip-types src/session_refresh.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
